@@ -1,0 +1,19 @@
+package comparacaostring;
+
+public class ComparacaoString {
+
+ 
+    public static void main(String[] args) {
+        // TODO code application logic here
+        String nome1 = "Giovanna";
+        String nome2 = "Giovanna";
+        String nome3 = new String("Giovanna");
+        String res;
+        
+        //res = (nome1==nome3)?"igual":"diferente"; verifica se o modo como é apresentado é igual.
+        
+        res = (nome1.equals(nome3))?"igual":"diferente";  //verifica se o conteúdo dos dois é igual.
+        System.out.println(res);
+    }
+    
+}
